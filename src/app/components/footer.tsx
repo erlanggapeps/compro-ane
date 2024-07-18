@@ -18,10 +18,10 @@ export default function Footer() {
             </div>
             <p className="text-3xl text-center text-white pt-10">Team comsumed:</p>
             <Marquee autoFill>
-                <Image className="w-[80px] h-[100px] mx-7" src="/supportLogo/logoCeres.png" alt="" />
-                <Image className="w-[125px] h-[65px] mx-7" src="/supportLogo/logoIndocafe.png" alt="" />
-                <Image className="w-[80px] h-[65px] mx-7" src="/supportLogo/logoIndomie1.png" alt="" />
-                <Image className="w-[80px] h-[40px] mx-7" src="/supportLogo/logoMilo.png" alt="" />
+                <Image className="w-[80px] h-[100px] mx-7" src="/supportLogo/logoCeres.png" alt="xd" width={100} height={100}/>
+                <Image className="w-[125px] h-[65px] mx-7" src="/supportLogo/logoIndocafe.png" alt="sf" width={100} height={100}/>
+                <Image className="w-[80px] h-[65px] mx-7" src="/supportLogo/logoIndomie1.png" alt="sev" width={100} height={100}/>
+                <Image className="w-[80px] h-[40px] mx-7" src="/supportLogo/logoMilo.png" alt="vs" width={100} height={100}/>
             </Marquee>
             <p className="text-center text-white">copyright by udara@gmail.com</p>
         </footer>

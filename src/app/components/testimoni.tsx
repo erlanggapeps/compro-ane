@@ -17,6 +17,8 @@ export default function Testimoni() {
                                 <Image
                                     src={item.img}
                                     alt="Shoes"
+                                    width={300}
+                                    height={300}
                                     className='w-full h-[250px] object-cover'
                                     />
                                     
