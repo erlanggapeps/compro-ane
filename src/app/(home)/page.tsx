@@ -30,7 +30,7 @@ export default function Home() {
       </div>
       <div>
         <h1 className="text-[40px] font-light text-center">Udara.co.id Overview</h1>
-        <p className="text-[20px] font-extralight text-center lg:px-40 px-5">A company overview typically provides a concise description of a company's mission, history, products or services, market position, and key achievements. Here's a generic example of how you might structure it</p>
+        <p className="text-[20px] font-extralight text-center lg:px-40 px-5">A company overview typically provides a concise description of a company mission, history, products or services, market position, and key achievements. Here a generic example of how you might structure it</p>
       </div>
       <div className="flex gap-1 w-full justify-around p-16 ">
         <Link href="/about"><div className="underline">History</div></Link>
@@ -43,7 +43,7 @@ export default function Home() {
       <div className="grid grid-row lg:grid-cols-2 justify-evenly h-[400px] overflow-hidden lg:bg-right-bottom text-center items-center">
         <div>
           <h1 className="font-semibold text-4xl p-5">Bring pure mountain air to your city</h1>
-          <p className="p-5">A company overview typically provides a concise description of a company's mission, history, products or services, market position, and key achievements. Here's a generic example of how you might structure it</p>
+          <p className="p-5">A company overview typically provides a concise description of a company mission, history, products or services, market position, and key achievements. Here a generic example of how you might structure it</p>
           <Link href="/service"><div className="underline">Product</div></Link>
         </div>
         <div>

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Testimoni() {
@@ -13,7 +14,7 @@ export default function Testimoni() {
                     <div key={key}>
                         <div className="card card-compact bg-base-100 w-96 shadow-xl">
                             <figure>
-                                <img
+                                <Image
                                     src={item.img}
                                     alt="Shoes"
                                     className='w-full h-[250px] object-cover'
