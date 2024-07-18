@@ -1,0 +1,36 @@
+{
+  "name": "legaitas-digital",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "preview": "next build && serve -s out"
+  },
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^16.6.1",
+    "@contentful/rich-text-react-renderer": "^15.22.5",
+    "clsx": "^2.1.1",
+    "contentful": "^10.12.10",
+    "embla-carousel-react": "^8.1.6",
+    "framer-motion": "^11.3.2",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "daisyui": "^4.12.10",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "serve": "^14.2.3",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
