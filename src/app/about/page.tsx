@@ -6,18 +6,24 @@ export default function About() {
   return (
     <div>
       <div className="grid grid-row lg:grid-cols-2 justify-evenly h-[600px] overflow-hidden bg-sliderOne bg-cover lg:bg-right-bottom ">
-        <div className="content-center text-center font-light mx-20">
+        <div></div>
+        <div className="lg:flex flex-col text-center  items-center hidden h-full pt-20 px-5 font-light mx-">
           <h1 className="text-2xl font-medium p-3 text-black">Company History</h1>
           <p className="pb-3 text-black">UDARA was founded in year by founders names in location. The company started with a vision to describe original mission or purpose. From its humble beginnings in describe early workspace or setup Company Name quickly gained traction in the industry or niche sector due to mention early successes or innovations.</p>
           <h4 className="text-black">-Prof Sujimandra</h4>
         </div>
       </div>
+      <div className="flex flex-col text-center lg:hidden items-center h-full pt-5 px-5 font-light mx-">
+          <h1 className="text-2xl font-medium p-3 text-black">Company History</h1>
+          <p className="pb-3 text-black">UDARA was founded in year by founders names in location. The company started with a vision to describe original mission or purpose. From its humble beginnings in describe early workspace or setup Company Name quickly gained traction in the industry or niche sector due to mention early successes or innovations.</p>
+          <h4 className="text-black">-Prof Sujimandra</h4>
+        </div>
       <h2 className="text-center font-semibold text-xl pt-14 hover:scale-150 hover:font-bold duration-200">OUR TEAM</h2>
       <div className="max-w-screen-xl mx-auto px-4 py-10 overflow-x-auto">
         <Card />
       </div>
-      <div className="grid lg:grid-cols-2 h-[400px] w-[1000px] rounded-2xl bg-black mx-auto my-11 text-white">
-        <div className="content-center mx-auto text-center p-3">
+      <div className="grid lg:grid-cols-2 lg:h-[400px] bg-black mx-auto my-11 text-white">
+        <div className="content-center mx-auto text-center p-10 ">
           <h1 className="text-xl font-medium">Company Culture</h1>
           <p className="mt-2 font-light text-pretty">UDARA was founded in year by founders names in location. The company started with a vision to describe original mission or purpose. From its humble beginnings in describe early workspace or setup Company Name quickly gained traction in the industry or niche sector due to mention early successes or innovations.</p>
         </div>
@@ -30,6 +36,7 @@ export default function About() {
           />
         </div>
       </div>
+      
         <Footer />
     </div>
   );
